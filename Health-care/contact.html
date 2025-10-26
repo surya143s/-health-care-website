@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | LifeCare Health Clinic</title>
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+  <a href="index.html" class="logo">
+    <img src="https://cdn-icons-png.flaticon.com/512/2966/2966486.png" alt="LifeCare Logo" />
+  </a>
+
+  <div class="menu-toggle" id="mobile-menu">
+    <i class="fas fa-bars"></i>
+  </div>
+
+  <nav class="navbar-items" id="navbar">
+    <div class="close-btn" id="close-menu"><i class="fas fa-times"></i></div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="departments.html">Departments</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="contact-hero">
+  <div class="overlay"></div>
+  <div class="hero-text">
+    <h1>Contact Us</h1>
+    <p>We’re here to help. Reach out to LifeCare Health Clinic anytime.</p>
+  </div>
+</section>
+
+<!-- ===== CONTACT INFO ===== -->
+<section class="contact-info">
+  <div class="container">
+    <div class="info-box">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Our Address</h3>
+      <p>LifeCare Health Clinic,<br> Garden Town, Block 4, Lahore</p>
+    </div>
+
+    <div class="info-box">
+      <i class="fas fa-phone-alt"></i>
+      <h3>Call Us</h3>
+      <p>+91 98765 43210<br> +92 321 6543210</p>
+    </div>
+
+    <div class="info-box">
+      <i class="fas fa-envelope"></i>
+      <h3>Email Us</h3>
+      <p>info@lifecare.com<br> support@lifecare.com</p>
+    </div>
+
+    <div class="info-box">
+      <i class="fas fa-clock"></i>
+      <h3>Working Hours</h3>
+      <p>Mon - Sat: 9 AM - 8 PM<br> Sun: Emergency Only</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT FORM ===== -->
+<section class="contact-form">
+  <div class="form-container">
+    <h2>Contact</h2>
+    <p>Have a question or need to book an appointment? Send us a message and our team will respond promptly.</p>
+
+    <form id="contactForm">
+      <div class="input-row">
+        <input type="text" id="name" name="name" placeholder="Full Name" required />
+        <input type="email" id="email" name="email" placeholder="Email Address" required />
+      </div>
+      <div class="input-row">
+        <input type="number" id="phone" name="phone" placeholder="Phone Number" required />
+        <input type="text" id="subject" name="subject" placeholder="Subject" required />
+      </div>
+      <textarea id="message" name="message" rows="6" placeholder="Your Message..." required></textarea>
+      <button onclick="fun()" class="btn-submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- ===== MAP SECTION ===== -->
+<section class="map">
+  <h2>Find Us on the Map</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.12901831448!2d78.0911840740768!3d9.923211474353275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf6e00eb596f%3A0x25041832bbd0565!2sGanesh%20Priya%20Hospital!5e0!3m2!1sen!2sus!4v1761491049049!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-sec">
+    <div class="sec">
+      <div class="f_box">
+        <h2>Contact</h2>
+        <p>Email: info@lifecare.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Facebook | Instagram | Twitter</p>
+      </div>
+      <div class="f_box">
+        <h2>Departments</h2>
+        <p>Radiology</p>
+        <p>Pharmacology</p>
+        <p>Pathology</p>
+        <p>Anatomy</p>
+      </div>
+    </div>
+
+    <div class="sec">
+      <div class="f_box">
+        <h2>Address</h2>
+        <p>LifeCare Health Clinic, Garden Town, Block 4, Lahore</p>
+        <p>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-snapchat"></i>
+          <i class="fab fa-whatsapp"></i>
+        </p>
+      </div>
+      <div class="f_box">
+        <h2>Facilities</h2>
+        <p>24/7 Emergency</p>
+        <p>Qualified Doctors</p>
+        <p>Modern Equipment</p>
+      </div>
+    </div>
+  </div>
+  <p class="para">© 2025 LifeCare Health Clinic. All Rights Reserved.</p>
+</footer>
+
+<!-- Link to JS -->
+<script src="index.js"></script>
+
+</body>
+</html>
