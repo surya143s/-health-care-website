@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LifeCare Health Clinic</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+  <a href="index.html" class="logo">
+    <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="HealthCare Logo" />
+  </a>
+
+  <!-- Hamburger (mobile) -->
+  <div class="menu-toggle" id="mobile-menu">
+    <i class="fas fa-bars"></i>
+  </div>
+
+  <nav class="navbar-items" id="navbar">
+    <div class="close-btn" id="close-menu">
+      <i class="fas fa-times"></i>
+    </div>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="departments.html">Departments</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <div class="nav-buttons">
+        <!-- <a href="login.html" class="btn-login">Login</a> -->
+      </div>
+    </ul>
+  </nav>
+</header>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="background">
+  <div class="main">
+    <div class="text-box">
+      <h1>Your Health, Our Commitment</h1>
+      <p>
+        LifeCare Health Clinic is dedicated to providing advanced, compassionate,
+        and personalized care. Whether it's regular checkups, specialized treatments,
+        or emergency care, we are here 24/7 to keep you healthy and confident.
+      </p>
+      <ul class="hero-points">
+        <li><i class="fas fa-stethoscope"></i> Experienced Doctors</li>
+        <li><i class="fas fa-ambulance"></i> 24/7 Emergency Care</li>
+        <li><i class="fas fa-heartbeat"></i> Trusted by 10,000+ Patients</li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <h1>Book Appointment</h1>
+      <input type="text" id="name" placeholder="Full Name" />
+      <input type="email" id="email" placeholder="Email" />
+      <input type="number" id="phone" placeholder="Contact Number"/>
+      <input type="date" id="date" />
+      <input type="time" id="time" />
+      <select id="doctor">
+        <option value="">-- Choose Doctor --</option>
+        <option value="Dr. Asha Verma">Dr. Asha Verma (Cardiologist)</option>
+        <option value="Dr. Ravi Kumar">Dr. Ravi Kumar (Dentist)</option>
+        <option value="Dr. Naina Shah">Dr. Naina Shah (Neurologist)</option>
+        <option value="Dr. Aman Patel">Dr. Aman Patel (General Physician)</option>
+      </select>
+      <button class="btn2" id="bookBtn">Book Now</button>
+      <p id="message"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-sec">
+    <div class="sec">
+      <div class="f_box">
+        <h2>Contact</h2>
+        <p>Email: info@lifecare.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Facebook | Instagram | Twitter</p>
+      </div>
+      <div class="f_box">
+        <h2>Departments</h2>
+        <p>Radiology</p>
+        <p>Pharmacology</p>
+        <p>Pathology</p>
+        <p>Anatomy</p>
+      </div>
+    </div>
+
+    <div class="sec">
+      <div class="f_box">
+        <h2>Address</h2>
+        <p>LifeCare Health Clinic, Garden Town, Block 4, Lahore</p>
+        <p>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-snapchat"></i>
+          <i class="fab fa-whatsapp"></i>
+        </p>
+      </div>
+      <div class="f_box">
+        <h2>Facilities</h2>
+        <p>24/7 Emergency</p>
+        <p>Qualified Doctors</p>
+        <p>Modern Equipment</p>
+      </div>
+    </div>
+  </div>
+  <p class="para">© 2025 LifeCare Health Clinic. All Rights Reserved.</p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
